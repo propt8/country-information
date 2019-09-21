@@ -1,0 +1,25 @@
+{
+    "name": "propt8/country-information",
+    "description": "PHP library for country information",
+    "keywords": ["php", "country", "capital"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saulius Remeikis",
+            "email": "sauliusremeikis@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "propt8\\Country\\": "src"
+        },
+        "files": [
+            "src/Helpers/CaseHelper.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.1"
+    }
+}
